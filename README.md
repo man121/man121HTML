@@ -1,2 +1,2 @@
 # man121HTML
-A repository for my html websites.
+A repository for my HTML websites.
