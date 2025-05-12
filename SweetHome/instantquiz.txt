@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="instantquizlooks.css">
+</head>
+
+<body>
+    <h1>Welcome to the Instant Quiz!</h1>
+    <p>This quiz consists of three questions on various topics. Note: This is not
+        officially scored.</p>
+    <form action="http://127.0.0.1:3000" method="post">
+        <p>First off, question one. What is 9 + 10? (hint, it's not 21).</p>
+        <input type="button" onclick="correct()" value="19">
+        <script>
+            function correct() {
+                alert('Answer correct.');
+            }
+        </script></input>
+        <input type="button" onclick="incorrect()" value="-19">
+        <script>
+            function incorrect() {
+                alert('Answer incorrect.');
+            }
+        </script></input>
+        <input type="button" onclick="incorrect()" value="9">
+        <script>
+            function incorrect() {
+                alert('Answer incorrect.');
+            }
+        </script></input>
+        <input type="button" onclick="incorrect()" value="-9">
+        <script>
+            function incorrect() {
+                alert('Answer incorrect.');
+            }
+        </script></input>
+        <input type="button" onclick="incorrect()" value="21">
+        <script>
+            function incorrect() {
+                alert('Answer incorrect.');
+            }
+        </script></input>
+        <p>Moving on, question 2 is: Which of these glyphs would a stereotypical 12-year-old find funny?</p>
+        <input type="button" onclick="incorrect()" value="µ">
+        <script>
+            function incorrect() {
+                alert('Answer incorrect.');
+            }
+        </script></input>
+        <input type="button" onclick="incorrect()" value="Ɔ">
+        <script>
+            function incorrect() {
+                alert('Answer incorrect.');
+            }
+        </script></input>
+        <input type="button" onclick="correct()" value="ȸ">
+        <script>
+            function correct() {
+                alert('Answer correct.');
+            }
+        </script></input>
+        <input type="button" onclick="incorrect()" value="ȹ">
+        <script>
+            function incorrect() {
+                alert('Answer incorrect.');
+            }
+        </script></input>
+        <p>Free Response: What is your opinion on this quiz? There is no right or wrong answer.</p>
+        <input></input>
+        <p>OMG! Thank you so much! Bye!</p>
+        <br>
+        <input type="submit"></input>
+    </form>
+</body>
+
+</html>
