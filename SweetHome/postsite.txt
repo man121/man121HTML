@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: wheat;
+        }
+
+        input[name="Content"] {
+            background-color: darksalmon;
+            color: darkslategray
+        }
+
+        input[name="Number"] {
+            background-color: cyan;
+            color: #007;
+        }
+
+        input[name="Comment"] {
+            background-color: #3c3;
+            color: #fdf;
+        }
+
+        input[name="Post"] {
+            background-color: crimson;
+            color: white;
+        }
+
+        input[name="Post Number"] {
+            background-color: dodgerblue;
+            color: #303;
+        }
+
+        input[name="Post Comment"] {
+            background-color: #2a9;
+            color: #fbf;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="http://127.0.0.1:3000/postsite.html" method="post">
+        <input type="text" name="Content" id="content" placeholder="Type...">
+        <input type="submit" name="Post" value="Post" onclick="post">
+        <script>
+            const post = alert('Post posted.')
+        </script>
+        <br>
+        <input type="number" id="number" name="Number" value="0"> <input type="submit" name="Post Number"
+            value="Post Number" onclick="number">
+        <script>
+            const number = alert('Number posted.')
+        </script>
+        <br>
+        <input type="text" name="Comment" id="content-comment" placeholder="Leave a comment...">
+        <input type="submit" name="Post Comment" value="Post Comment" onclick="comment">
+        <script>
+            const comment = alert('Comment posted.')
+        </script>
+    </form>
+</body>
+
+</html>
