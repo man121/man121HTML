@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cringe</title>
+    <meta property="og:title" content="website">
+    <meta name="description" content="Welcome to this cringey world. Enter if you dare...">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.1">
+    <link rel="stylesheet" href="cringeaura.css">
+</head>
+
+<body>
+    <header>
+        <p>To you, we present something special. This!
+        </p>
+    </header>
+    <main>
+        <section>
+            <h1>Cringe</h1>
+            <p id="cring">Bro, this dude is so sigma. Like, I can't even describe it. He just, uhh, has so much
+                <b>aura</b>, man. Compared to him, I'm low vibration.
+            </p>
+            <p id="quote">- You telling your friend about a dude you met after you start watching TikToks for
+                138
+                hours/week.
+
+            </p>
+            <form action="http://127.0.0.1:3000" method="post">
+                <p id="formtext">Was this worth the hype, chat?</p> <input type="text" placeholder="Opinion here.">
+                <input type="submit">
+            </form>
+
+        </section>
+    </main>
+    <br>
+    <br>
+    <footer>
+        Brought to you by <b>CringeTV</b>. Be sure to watch CringeTV every month on my YouTube channel. Handle
+        (for easy
+        finding):
+        @JohnStafford553
+    </footer>
+</body>
+
+</html>
