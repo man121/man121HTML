@@ -1,0 +1,27 @@
+body {
+    background-color: gold;
+    font-size: xx-large;
+}
+
+p[id="cring"] {
+    color: red;
+}
+
+p[id="quote"] {
+    color: #ff0033;
+}
+
+p[id="formtext"] {
+    color: purple;
+    text-shadow: rgba(1, 23, 84, 0.9);
+}
+
+header,
+footer {
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    display: block;
+}
