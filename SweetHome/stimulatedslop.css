@@ -1,0 +1,50 @@
+/* Color standards */
+:root {
+    --red: rgb(255, 26, 7);
+    --green: rgb(0, 255, 35);
+    --blue: rgb(37, 13, 255);
+    --darkred: rgb(155, 26, 7);
+    --darkgreen: rgb(0, 155, 35);
+    --darkblue: rgb(37, 13, 155);
+}
+
+
+body {
+    background-color: var(--green);
+}
+
+h1 {
+    font-size: max(40px, 8vw);
+}
+
+
+p {
+    background-color: var(--red);
+    font-size: clamp(25px, 3vw, 6vw);
+    padding: min(10px, 4vw);
+}
+
+a {
+    --link-blue: rgb(17, 13, 155);
+    font-size: 3.5vw;
+    color: var(--link-blue);
+}
+
+footer {
+    color: var();
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: var(--darkgreen);
+    }
+
+    p {
+        background-color: var(--darkred);
+    }
+
+    a {
+        color: var(--darkblue);
+    }
+}
