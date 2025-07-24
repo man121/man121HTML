@@ -1,0 +1,18 @@
+* {
+    color: white;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input,
+button {
+    background-color: rgb(15, 15, 15);
+    border: 2px ridge white;
+}
+
+#warning {
+    color: red;
+    border: 1px solid red;
+    margin: 2px;
+    padding: 2px;
+}
