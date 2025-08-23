@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="howdoimakethislookbetter.css">
+</head>
+
+<body>
+    <form action="http://127.0.0.1:3000/regexrookie.html">
+        <label for="idsetup">Enter your ID here.
+            <br>
+            <br>
+            <input required type="text" id="idsetup" pattern="^\d{1,3}[@][a-zA-Z]{3,6}$">
+            <br>
+            <br>
+            <label for="emailsetup">Enter your email here.</label>
+            <input id="emailsetup" type="email">
+            <br>
+            <button id="id" type="submit">Submit</button>
+    </form>
+    <br>
+    <br>
+    <strong id="warning">Warning: This system is not meant for practical or professional use.</strong>
+</body>
+
+</html>

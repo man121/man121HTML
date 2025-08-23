@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Poggies</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="pogdesigner.css">
+</head>
+
+<body>
+    <p id="use-javascript">This site contains a script. Make sure you have JavaScript enabled.</p>
+    <button type="button" onclick="peakAlert()">Peak Alert!</button>
+    <script src="peak.js"></script>
+    <noscript>Enable JavaScript to run!</noscript>
+    <hr>
+    <!--div zone starts here-->
+    <div>
+        <strong>The show is over!</strong>
+    </div>
+    <div>
+        <strong>Guess it really is, yeah, guess it really is!</strong>
+    </div>
+    <div>
+        <strong>I'm not missin' much in 2026.</strong>
+    </div>
+    <div>
+        <strong>Is it worth fighting over yonder...</strong>
+    </div>
+    <div>
+        <strong>Or is it..not worth saving.</strong>
+    </div>
+    <div>
+        <strong>All we know...is that...we'll miss it by 2036.</strong>
+    </div>
+    <!--div zone ends here-->
+    <form action="http://127.0.0.1:3000" method="post">
+        <textarea rows="30" cols="15"></textarea>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
