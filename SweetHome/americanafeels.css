@@ -1,0 +1,77 @@
+* {
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+
+nav {
+    background-color: rgb(255, 89, 0);
+    border: 3px solid white;
+    margin: 2.5vh;
+    padding: 2.5vh;
+}
+
+a:link {
+    color: rgb(184, 0, 0);
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover,
+a:focus {
+    color: maroon;
+}
+
+a:active {
+    color: pink;
+}
+
+marquee {
+    border: 3px ridge red;
+    font-size: 2vw;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+h1 {
+    font-size: 5vw;
+    margin: 4vh;
+    padding: 4vh;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 3vh;
+    padding: 3vh;
+}
+
+p {
+    font-size: 3vw;
+    margin: 2vh;
+    padding: 2vh;
+
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 2px ridge red;
+    font-size: 2vw;
+    font-weight: 600;
+    margin: 1.5vh;
+    padding: 1.5vh;
+}
+
+#click-me {
+    border: 5px solid rgba(0, 145, 167, 0.94);
+    margin: 3px;
+    background-color: rgba(255, 39, 50, 0.9);
+}
